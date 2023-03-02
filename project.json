@@ -1,6 +1,6 @@
 {
-  "name": "Plantilla Reframwork",
-  "description": "Proceso que sirve de plantilla de reframwork",
+  "name": "Proyectos",
+  "description": "Proceso que sirve para de cada proyecto, traducir su tipo y descripción y crear un archivo en carpeta output con formato nombre: code_project.xlsx, dentro a su vez de una carpeta con la fecha de ejecución ",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.11.4]",
@@ -17,16 +17,21 @@
   "projectVersion": "1.0.1",
   "runtimeOptions": {
     "autoDispose": false,
+    "netFrameworkLazyLoading": false,
     "isPausable": true,
+    "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
     "excludedLoggedData": [
       "Private:*",
       "*password*"
     ],
     "executionType": "Workflow",
     "readyForPiP": false,
-    "startsInPiP": false
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": false,
+    "pipType": "ChildSession"
   },
   "designOptions": {
     "projectProfile": "Developement",
