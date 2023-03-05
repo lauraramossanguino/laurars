@@ -32,6 +32,8 @@
       "SortBy": 0,
       "VariablesSectionElementsOrder": null,
       "ArgumentsSectionElementsOrder": [
+        "out_fecha",
+        "out_carpetaFecha",
         "in_rutaArchivo",
         "in_dt_datosProyectos",
         "out_exitStatus",
@@ -45,6 +47,34 @@
       "SortBy": 0,
       "VariablesSectionElementsOrder": null,
       "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Calcular_presupuesto.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": null,
+      "ArgumentsSectionElementsOrder": [
+        "in_dt_datosProyectos",
+        "out_exitMessage",
+        "out_exitStatus"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process Transaction/Calcular_presupuesto.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": null,
+      "ArgumentsSectionElementsOrder": [
+        "in_fecha",
+        "in_rutaExcelReporte",
+        "in_carpetaFecha",
+        "in_rutaArchivo",
+        "out_exitStatus",
+        "out_exitMessage",
+        "in_dt_datosProyectos"
+      ],
       "ConstantsSectionElementsOrder": null,
       "AddedNamespaces": null
     }
